@@ -4,6 +4,7 @@ import os
 from scipy import misc
 import argparse
 import sys
+import cv2
 
 g_mean = np.array(([126.88,120.24,112.19])).reshape([1,1,3])
 output_folder = "./test_output"
